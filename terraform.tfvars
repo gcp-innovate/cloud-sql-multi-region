@@ -11,4 +11,6 @@ project_create = {
   parent = "folders/554879963717"
 }
 
+postgres_user_password = "H#ll0w0rld"
+
 
