@@ -19,10 +19,10 @@ terraform {
   backend "gcs" {
     bucket = "bkt-b-tfstate-00df"
     prefix = "terraform/cloudsql-multi-region/state"
-    impersonate_service_account = "gcp-practice-tf-account@gcp-practice-prj-357704.iam.gserviceaccount.com"
+    #impersonate_service_account = "gcp-practice-tf-account@gcp-practice-prj-357704.iam.gserviceaccount.com"
   }
 }
-
+/*
 provider "google" {
   impersonate_service_account = "gcp-practice-tf-account@gcp-practice-prj-357704.iam.gserviceaccount.com"
 }
@@ -30,3 +30,4 @@ provider "google" {
 provider "google-beta" {
   impersonate_service_account = "gcp-practice-tf-account@gcp-practice-prj-357704.iam.gserviceaccount.com"
 }
+*/
