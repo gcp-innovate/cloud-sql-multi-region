@@ -115,7 +115,7 @@ module "vpc" {
   name       = "vpc"
   subnets = [
     {
-      ip_cidr_range = "10.0.0.0/20"
+      ip_cidr_range = "10.0.68.0/24"
       name          = "subnet"
       region        = var.regions.primary
     }
