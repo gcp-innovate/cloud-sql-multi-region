@@ -92,7 +92,7 @@ variable "sql_configuration" {
   default = {
     availability_type = "REGIONAL"
     database_version  = "POSTGRES_13"
-    psa_range         = "10.60.0.0/16"
+    psa_range         = "10.80.0.0/24"
     tier              = "db-g1-small"
   }
 }
